@@ -1,0 +1,55 @@
+{
+    "formats": [
+        {
+            "name": "Excel (ein Blatt für alles)",
+            "formatter": "single-excel",
+            "template": "export/courselist.xlsx"
+        },
+        {
+            "name": "Excel (ein Blatt pro Kurs)",
+            "formatter": "excel",
+            "template": "export/courselist.xlsx"
+        },
+        {
+            "name": "Excel mit Zusatzfunktionen (eine Datei pro Kurs)",
+            "formatter": "zip-excel",
+            "template": "export/courselist-enhanced.xlsx"
+        },
+        {
+            "name": "Comma Separated (.csv)",
+            "formatter": "csv",
+            "template": "export/courselist.csv"
+        },
+        {
+            "name": "Spanisch",
+            "language": "Spanisch",
+            "formatter": "zip-excel",
+            "template": "export/spanisch.xlsx"
+        },
+        {
+            "name": "Spanisch Hueber",
+            "language": "Spanisch",
+            "formatter": "zip-excel",
+            "template": "export/spanisch_hueber.xlsx"
+        },
+        {
+            "name": "Englisch",
+            "language": "Englisch",
+            "formatter": "zip-excel",
+            "template": "export/english.xlsx"
+        },
+        {
+            "name": "Englisch Gesamtliste",
+            "language": "Englisch",
+            "formatter": "single-excel",
+            "template": "export/english_overview.xlsx",
+            "instance": "LANGUAGE"
+        },
+        {
+            "name": "Gesamtliste (allgemein)",
+            "formatter": "single-excel",
+            "template": "export/overview.xlsx",
+            "instance": "LANGUAGE"
+        }
+    ]
+}
